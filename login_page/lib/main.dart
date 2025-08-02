@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
       home: const WidgetTree(),
       routes: {
         '/google': (context) => const Signup(provider: "google"),
-        '/github': (context) => const Signup(provider: ""),
+        '/github': (context) => const Signup(provider: "github"),
         '/apple': (context) => const Signup(provider: "apple"),
         '/loginpage': (context) => const LoginPage(),
       },
